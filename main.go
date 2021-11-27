@@ -15,10 +15,11 @@ func main() {
 	_, _ = fmt.Scan(&input)
 
 	switch input {
-	case "стоп": {
-		fmt.Print("Конец работы программы. Выход...\n")
-		return
-	}
+	case "стоп":
+		{
+			fmt.Print("Конец работы программы. Выход...\n")
+			return
+		}
 	default:
 		{
 			number, err := strconv.Atoi(input)
